@@ -1,18 +1,18 @@
 class House {
-    room : number;
+    room: number;
     floors: number;
 
-    setRoom( room: number) {
+    setRoom(room: number) {
         this.room = room;
     }
 
-    setFloor( floors: number ) {
+    setFloor(floors: number) {
         this.floors = floors;
     }
 
 }
 
-abstract class HouseBuilder  {
+abstract class HouseBuilder {
 
     protected house: House;
 
@@ -54,7 +54,7 @@ class Mansion extends HouseBuilder {
 class Engineer {
     private houseBuilder: HouseBuilder;
 
-    setHouseBuilder( houseBuilder: HouseBuilder) {
+    setHouseBuilder(houseBuilder: HouseBuilder) {
         this.houseBuilder = houseBuilder;
     }
 
