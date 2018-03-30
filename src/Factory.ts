@@ -98,11 +98,11 @@ switch (pizza) {
                  factory.setPizza(pizza);
                  pizzaResult = factory.createMeatPizza(); break;
 
-    case "Veggie" : factory = new MeatPizzaFactory();
+    case "Veggie" : factory = new VeggiePizzaFactory();
                     factory.setPizza(pizza);
                     pizzaResult = factory.createVeggiePizza(); break;
 
-    case "Margherita" : factory = new MeatPizzaFactory();
+    case "Margherita" : factory = new VeggiePizzaFactory();
                         factory.setPizza(pizza);
                         pizzaResult = factory.createVeggiePizza(); 
 }    
